@@ -3,7 +3,7 @@ This project refactors this web scraping code example [here](https://towardsdata
 
 The goals of the refactor are:
 1. Completeness
-2. Reproducibility 
+2. Reproducibility
 3. Maintainability
 4. Modularity
 
@@ -95,9 +95,9 @@ Activate the virtual environment through:
 pipenv shell
 ```
 
-You may begin local code development. 
+You may begin local code development.
 
-NOTE: 
+NOTE:
 1. Upon every new virtual environment activation command i.e. `pipenv shell` you will need to also run `pre-commit install` to run pre-commit locally. You can check that pre-commit hooks are working locally by running `pre-commit run --all-files`.
 2. In order for `pre-commit` to work the project must be in a properly set up github repository.
 3. If your work requires you to add any new packages to the Pipfile this will require you to rebuild your entire virtual environment in order to get the new packages. Optionally you may install packages into the current virtual environment though this will not be persistent using `pipenv install your-favorite-package`

@@ -3,13 +3,13 @@ from setuptools import setup
 
 
 setup(
-    name='project-refactor',
-    version='0.1.0',
+    name="project-refactor",
+    version="0.1.0",
     packages=["src"],
     install_requires=[],
     entry_points={
-        'console_scripts': [
-            'refactor = src.cli.cli_runner:refactor_cli',
+        "console_scripts": [
+            "refactor = src.cli.cli_runner:refactor_cli",
         ],
     },
 )
