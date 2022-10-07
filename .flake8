@@ -1,0 +1,14 @@
+[flake8]
+# To exclude folders see pre-commit config file
+
+# Project Set Line Length
+max-line-length = 88
+
+# Ignored flake8 errors:
+# E201: Whitespace after '('
+# E203: Whitespace before ':'
+# E241: Multiple spaces after ','
+# E266: Too many leading '#' for block comment
+# W503: Line break occurred before a binary operator
+# W504: Line break occurred after a binary operator
+ignore = E201,E203,E241,E266,W503,W504
